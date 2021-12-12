@@ -1,32 +1,49 @@
-import React from 'react'
-import { Container, MenuItem, Wrapper, Menu, MenuItemLink, } from './NavbarElement'
+import React, {useState} from 'react'
+import { Container, MenuItem, Wrapper, Menu, MenuItemLink, MobileIcon, } from './NavbarElement'
+import { Icon } from '../Styles/Icons'
 
 const Navbar = () => {
+
+    const [showMobileMenu, setShowMobileMenu] = useState(false);
+
     return (
         <Container>
             <Wrapper>
-                <Menu>
-                    <MenuItem>
-                        <MenuItemLink>
-                        Home
-                        </MenuItemLink>
-                    </MenuItem>
-                    <MenuItem>
-                        <MenuItemLink>
-                        Sobre
-                        </MenuItemLink>
-                    </MenuItem>
-                    <MenuItem>
-                        <MenuItemLink>
-                        Potafolio
-                        </MenuItemLink>
-                    </MenuItem>
-                    <MenuItem>
-                        <MenuItemLink>
-                        Contacto
-                        </MenuItemLink>
-                    </MenuItem>
-                </Menu>
+                <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                <Icon className="fas fa-bars" />
+                </MobileIcon>
+                    <Menu open={showMobileMenu}>
+                        <MenuItem>
+                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <Icon className="fas fa-home" />
+                            Home
+                            </MenuItemLink>   
+                        </MenuItem>
+                        <MenuItem>
+                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <Icon className="fas fa-user" />
+                            Sobre
+                            </MenuItemLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <Icon className="fas fa-th-list" />
+                            Potafolio
+                            </MenuItemLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <Icon className="fas fa-file-signature" />
+                            Blog
+                            </MenuItemLink>
+                        </MenuItem>
+                        <MenuItem>
+                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <Icon className="fas fa-address-card" />
+                            Contacto
+                            </MenuItemLink>
+                        </MenuItem>
+                    </Menu>
             </Wrapper>
         </Container>
     )
