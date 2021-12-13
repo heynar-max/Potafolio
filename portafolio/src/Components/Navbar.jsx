@@ -28,7 +28,7 @@ const Navbar = () => {
                         <MenuItem>
                             <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                             <Icon className="fas fa-th-list" />
-                            Potafolio
+                            Portafolio
                             </MenuItemLink>
                         </MenuItem>
                         <MenuItem>

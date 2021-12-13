@@ -20,7 +20,7 @@ export const Menu = styled.ul`
     list-style: none;
 
     @media screen and (max-width: 960px) {
-    /* background-color: #23394d; */
+    background-color: #000000;
     position: absolute;
     top: 70px;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import
@@ -71,6 +71,9 @@ export const MobileIcon = styled.div`
     align-items: center;
     cursor: pointer;
     color:#FDB404;
+    
     }
+
+    
 `;
 
