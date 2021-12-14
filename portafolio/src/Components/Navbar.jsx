@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import { Container, MenuItem, Wrapper, Menu, MenuItemLink, MobileIcon, } from './NavbarElement'
 import { Icon } from '../Styles/Icons'
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
 
@@ -14,15 +16,19 @@ const Navbar = () => {
                 </MobileIcon>
                     <Menu open={showMobileMenu}>
                         <MenuItem>
-                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <MenuItemLink as={Link} to={'/'} onClick={() => setShowMobileMenu(!showMobileMenu)} >
+                                
                             <Icon className="fas fa-home" />
                             Home
-                            </MenuItemLink>   
+                            
+                            </MenuItemLink>
                         </MenuItem>
                         <MenuItem>
-                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <MenuItemLink as={Link} to={'/sobre'}  onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            
                             <Icon className="fas fa-user" />
                             Sobre
+                            
                             </MenuItemLink>
                         </MenuItem>
                         <MenuItem>
@@ -43,10 +49,13 @@ const Navbar = () => {
                             Contacto
                             </MenuItemLink>
                         </MenuItem>
+                        
                     </Menu>
             </Wrapper>
         </Container>
     )
 }
+
+
 
 export default Navbar
