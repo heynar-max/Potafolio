@@ -1,6 +1,7 @@
 import { Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
 
 
 function App() {
@@ -8,8 +9,11 @@ function App() {
     <>
         <Navbar/>
         <Switch>
-          <Route pacth="/" exact>
+          <Route path="/" exact>
             <Home/>
+          </Route>
+          <Route path="/sobre" exact>
+            <Sobre/>
           </Route>
         </Switch>
     </>

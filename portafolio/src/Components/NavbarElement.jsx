@@ -46,19 +46,19 @@ export const MenuItemLink = styled.a`
     color:#FDB404;
     font-family: 'Raleway', sans-serif;
     font-size: 0rem;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
 
     @media screen and (max-width: 960px){
         font-family: 'Raleway', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     &:hover {
     color: #fff;
     transition: 0.5s all ease;
     
-
+    }
     
 
 `;

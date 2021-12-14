@@ -1,13 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
-import Particle from '../Components/Particle'
 import Avatar from '../Assets/heynar.jpg'
+import styled from 'styled-components'
 
-
-const Home = () => {
+const SobreMi = () => {
     return (
         <>
-            <Particle/>
+            
             
             <ImagenStyled>
             
@@ -16,14 +14,17 @@ const Home = () => {
             </div>
 
             
-            <div className='right-content'>
-                <h1>Hola Soy</h1><h1><span> Heynar Soto Holguin</span></h1>
-                <p >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> 
-                    Atque nihil voluptates ea dolore vel <br/>
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
-                </p> 
             
+                <div className='col-12 col-lg7 col-xl-8'>
+                <div className='right-content'>
+                    <div>
+                    
+                        <h3>datos personales</h3>
+                    
+                
+                
+                    </div>
+                </div>
             </div>
             
             </ImagenStyled>
@@ -33,7 +34,7 @@ const Home = () => {
 
 const ImagenStyled = styled.div`
     display: flex;
-    margin-top: 10rem;
+    margin-top: 5rem;
     text-align: center;
     flex-direction: row;
     justify-content: center;
@@ -48,8 +49,6 @@ const ImagenStyled = styled.div`
     .left-content{
         
         img{
-        border-radius: 50%;
-        z-index: 1;
         border: 10px solid rgba(255, 255, 255, .15);
         border-bottom: 10px solid #fdb404;
         @media screen and (max-width: 790px){
@@ -73,10 +72,12 @@ const ImagenStyled = styled.div`
     
         .right-content{
             margin-top: 3rem;
-            h1{
+            
+            h3{
                 font-size: 2.5rem;
                 color: var(--color-letra-blanco);
                 font-family: 'Oswald', sans-serif;
+                text-transform: uppercase;
                 @media screen and (max-width: 790px){
                 font-size: 1.8rem;
                 }
@@ -124,4 +125,5 @@ const ImagenStyled = styled.div`
             }
         }
 `;
-export default Home
+
+export default SobreMi

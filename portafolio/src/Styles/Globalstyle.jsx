@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
 :root{
     --color-fondo: #000000;
     --color-letra-blanco: #ffffff;
+    --blanco-trasparente: #ffffff47;
     --color-naranja: #FDB404;
 }
 
