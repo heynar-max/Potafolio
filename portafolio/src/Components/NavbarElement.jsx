@@ -2,8 +2,11 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width:100%;
-    heigth: 70px;
-    /* background-color: #741919; */
+    heigth: 80px;
+    position: sticky;
+    top:0;
+    background-color: #000000;
+    
 `;
 
 export const Wrapper = styled.div`
@@ -18,18 +21,22 @@ export const Menu = styled.ul`
     display:flex;
     justify-content: center;
     list-style: none;
+    
+
 
     @media screen and (max-width: 960px) {
-    background-color: #000000;
+        background-color: #000000;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     transition: 0.5s all ease;
+    sticky: top;
+    
     }
 `;
 

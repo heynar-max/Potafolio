@@ -9,12 +9,12 @@ const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
 
     return (
-        <Container>
+        <Container >
             <Wrapper>
                 <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <Icon className="fas fa-bars" />
                 </MobileIcon>
-                    <Menu open={showMobileMenu}>
+                    <Menu open={showMobileMenu} >
                         <MenuItem>
                             <MenuItemLink as={Link} to={'/'} onClick={() => setShowMobileMenu(!showMobileMenu)} >
                                 

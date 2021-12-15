@@ -11,7 +11,7 @@ const Title = ({title, title1, span}) => {
 
 const TitleStyled = styled.div` 
         position: relative;
-        top: 5vh;
+        /* top: 5vh; */
         z-index: -1;
         
 
