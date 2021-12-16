@@ -2,6 +2,8 @@ import React from 'react'
 import Avatar from '../Assets/heynar.jpg'
 import styled from 'styled-components'
 import { Icon } from '../Styles/Icons'
+import Expeyedu from './Expeyedu'
+import Separador from '../Styles/Separador'
 
 const SobreMi = () => {
     return (
@@ -39,11 +41,16 @@ const SobreMi = () => {
                     </div>
                 </div>
             </div>
+
+            
             
             </ImagenStyled>
+            <Separador/>
+            <Expeyedu/>
         </>
     )
 }
+
 
 const ImagenStyled = styled.div`
     display: flex;
@@ -68,6 +75,14 @@ const ImagenStyled = styled.div`
         
         img{
         width:100%;
+        border: 7px solid rgba(255, 255, 255, .15);
+        border-bottom: 7px solid #fdb404;
+        &::before{
+        
+            webkit-animation: shine .85s;
+            animation: shine .85s; 
+        }
+
         @media screen and (max-width: 1250px){
             max-width: 400px;
         }
@@ -92,6 +107,8 @@ const ImagenStyled = styled.div`
                 font-size: 4rem;
                 max-width: 100px;
             }
+
+        
         
         }
     }
@@ -165,23 +182,23 @@ const ImagenStyled = styled.div`
                         
                         b{
                             color: var(--color-letra-blanco);
-                            font-family: 'Teko', sans-serif;
+                            font-family: 'Open Sans', sans-serif;
                             font-weight: 600;
-                            font-size: 2rem;
+                            font-size: 1.1rem;
                             @media screen and (max-width: 1487px){
-                                font-size: 1.5rem;
+                                font-size: 1rem;
                             }
                             @media screen and (max-width: 1250px){
-                                font-size: 2rem;
+                                font-size: 1.2rem;
                             }
-                            @media screen and (max-width: 880px){
-                                font-size: 1.6rem;
+                            @media screen and (max-width: 886px){
+                                font-size: 1rem;
                             }
                             @media screen and (max-width: 780px){
                                 font-size: 1.5rem;
                             }
-                            @media screen and (max-width: 374px){
-                                font-size: 1rem;
+                            @media screen and (max-width: 447px){
+                                font-size: .9rem;
                             }
                             @media screen and (max-width: 290px){
                                 font-size: .8rem;
@@ -197,16 +214,16 @@ const ImagenStyled = styled.div`
                                 font-size: 1.1rem;
                             }
                             @media screen and (max-width: 1250px){
-                                font-size: 1.5rem;
-                            }
-                            @media screen and (max-width: 880px){
                                 font-size: 1.2rem;
+                            }
+                            @media screen and (max-width: 886px){
+                                font-size: 1rem;
                             }
                             @media screen and (max-width: 780px){
                                 font-size: 1.5rem;
                             }
-                            @media screen and (max-width: 374px){
-                                font-size: 1rem;
+                            @media screen and (max-width: 447px){
+                                font-size: .9rem;
                             }
                             @media screen and (max-width: 290px){
                                 font-size: .8rem;
@@ -235,23 +252,23 @@ const ImagenStyled = styled.div`
                         }
                         b{
                             color: var(--color-letra-blanco);
-                            font-family: 'Teko', sans-serif;
+                            font-family: 'Open Sans', sans-serif;
                             font-weight: 600;
-                            font-size: 2rem;
+                            font-size: 1.1rem;
                             @media screen and (max-width: 1487px){
-                                font-size: 1.5rem;
+                                font-size: 1rem;
                             }
                             @media screen and (max-width: 1250px){
-                                font-size: 2rem;
+                                font-size: 1.2rem;
                             }
-                            @media screen and (max-width: 880px){
-                                font-size: 1.6rem;
+                            @media screen and (max-width: 886px){
+                                font-size: 1rem;
                             }
                             @media screen and (max-width: 780px){
                                 font-size: 1.5rem;
                             }
-                            @media screen and (max-width: 374px){
-                                font-size: 1rem;
+                            @media screen and (max-width: 447px){
+                                font-size: .9rem;
                             }
                             @media screen and (max-width: 290px){
                                 font-size: .8rem;
@@ -267,16 +284,16 @@ const ImagenStyled = styled.div`
                                 font-size: 1rem;
                             }
                             @media screen and (max-width: 1250px){
-                                font-size: 1.5rem;
-                            }
-                            @media screen and (max-width: 880px){
                                 font-size: 1.2rem;
+                            }
+                            @media screen and (max-width: 886px){
+                                font-size: 1rem;
                             }
                             @media screen and (max-width: 780px){
                                 font-size: 1.5rem;
                             }
-                            @media screen and (max-width: 374px){
-                                font-size: 1rem;
+                            @media screen and (max-width: 447px){
+                                font-size: .9rem;
                             }
                             @media screen and (max-width: 290px){
                                 font-size: .8rem;
@@ -287,6 +304,9 @@ const ImagenStyled = styled.div`
             
         }
     }
-`;  
+
+    
+`; 
+
 
 export default SobreMi
