@@ -5,7 +5,8 @@ export const Container = styled.div`
     heigth: 80px;
     position: sticky;
     top:0;
-    background-color: #000000;
+    /* background-color: #212529; */
+    background-color: #111;
     
 `;
 
@@ -25,7 +26,7 @@ export const Menu = styled.ul`
 
 
     @media screen and (max-width: 960px) {
-        background-color: #000000;
+        background-color: #111;
     position: absolute;
     top: 60px;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import

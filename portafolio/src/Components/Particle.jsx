@@ -6,6 +6,7 @@ const Particle = () => {
         <>
         <Particles width="100%" height="100vh" 
             params={{
+                
                 particles: {
                     number:{
                     value:15,
