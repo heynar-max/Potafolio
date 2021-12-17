@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Icon } from '../Styles/Icons'
 import Expeyedu from './Expeyedu'
 import Separador from '../Styles/Separador'
+import Habilidades from './Habilidades'
 
 const SobreMi = () => {
     return (
@@ -47,6 +48,8 @@ const SobreMi = () => {
             </ImagenStyled>
             <Separador/>
             <Expeyedu/>
+            <Separador/>
+            <Habilidades/>
         </>
     )
 }
