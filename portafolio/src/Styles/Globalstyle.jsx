@@ -28,8 +28,8 @@ h1{
         @media screen and (max-width: 502px){
             font-size: 3rem
         }
-
-
+    }
+}
 `;
 
 export default GlobalStyle;

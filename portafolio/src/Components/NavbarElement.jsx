@@ -7,7 +7,7 @@ export const Container = styled.div`
     top:0;
     /* background-color: #212529; */
     background-color: #111;
-    
+    z-index: 1;
 `;
 
 export const Wrapper = styled.div`
