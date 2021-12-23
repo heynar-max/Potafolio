@@ -32,7 +32,7 @@ const Navbar = () => {
                             </MenuItemLink>
                         </MenuItem>
                         <MenuItem>
-                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <MenuItemLink as={Link} to={'/portafolio'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                             <Icon className="fas fa-th-list" />
                             Portafolio
                             </MenuItemLink>

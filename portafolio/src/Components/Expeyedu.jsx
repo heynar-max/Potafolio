@@ -17,14 +17,14 @@ const Expeyedu = () => {
                         title={'fundamentos de programación python '}
                         year={'2021'}
                         subtitle={'Universidad Tecnologica de pereira'}
-                        text={'lorem jahyebdkjdjesyhak jjedejdkajdhed jdekjdeijksd kdjedhaksdj'}
+                        text={'Se realizo del 28 de abril al 16 de junio con una intensidad de 12 horas semanalaes de clases sincrónicas y 120 horas que son de trabajo autónomo y asincróno'}
                     />
                     <Icon className='fa fa-graduation-cap'></Icon>
                     <Expeyeduitem 
-                        title={'Desarrollo Aplicaciones Web'}
+                        title={'Diplomado de Desarrollo de Aplicaciones Web'}
                         year={'2021'}
                         subtitle={'Universidad Tecnologica de pereira'}
-                        text={'lorem jahyebdkjdjesyhak jjedejdkajdhed jdekjdeijksd kdjedhaksdj'}
+                        text={'Curso y aprobó el Diplomado en Desarrollo de Aplicaiones web de Mision TIC 2022, con una intensidad horaria de 800 horas, comprendidas en 320 horas sincrónicas y 480 asincrónicas'}
                     />
                     
                     </div>
@@ -35,14 +35,14 @@ const Expeyedu = () => {
                         title={'Diseñador de estructura 3d'}
                         year={'2020'}
                         subtitle={'Vista 3D'}
-                        text={'lorem jahyebdkjdjesyhak jjedejdkajdhed jdekjdeijksd kdjedhaksdj'}
+                        text={'Es una afición mas de mi vida, diseño estructuras en 3d para despues llevarlas a la impresora'}
                     />
                     <Icon className='fa fa-suitcase'></Icon>
                     <Expeyeduitem 
                         title={'Programador Junior'}
                         year={'2021'}
                         subtitle={'Vista 3D'}
-                        text={'lorem jahyebdkjdjesyhak jjedejdkajdhed jdekjdeijksd kdjedhaksdj'}
+                        text={'Son de mi proyecto que llevo acabo para exponer mis figuras hechas en la impresora'}
                     />
                     </div>
                 </div>
