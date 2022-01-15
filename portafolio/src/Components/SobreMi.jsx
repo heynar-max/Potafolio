@@ -28,14 +28,13 @@ const SobreMi = () => {
                         <li><Icon className='fa fa-user'></Icon> <span> Name: </span><b>Heynar Soto Holguin</b></li>
                         <li><Icon className='fa fa-birthday-cake'></Icon> <span> Birthdate: </span><b>June 1983</b></li>
                         <li><Icon className='fa fa-flag'></Icon> <span> Nationality: </span><b>Colombian</b></li>
-                        <li><Icon className='fa fa-map-marker'></Icon> <span> Address: </span><b>Buga, Colombia</b></li>
+                        
                         
                         </ul>
                     
                     <ul className="info">
+                    <li><Icon className='fa fa-map-marker'></Icon> <span> Address: </span><b>Buga, Colombia</b></li>
                         <li><Icon className='fa fa-language'></Icon> <span> Langages: </span><b>Spanish</b></li>
-                        <li><Icon className='fa fa-phone'></Icon> <span> Phone: </span><b>316 364-1721</b></li>
-                        <li><Icon className='fa fa-envelope'></Icon> <span> Email: </span><b>heynar76@hotmail.com</b></li>
                         <li><Icon className='fas fa-biking'></Icon> <span> Hobby: </span><b>Mountain biking</b></li>
                         
                     </ul>

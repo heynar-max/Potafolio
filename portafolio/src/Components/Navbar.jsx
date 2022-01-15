@@ -33,18 +33,18 @@ const Navbar = () => {
                         </MenuItem>
                         <MenuItem>
                             <MenuItemLink as={Link} to={'/portafolio'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
-                            <Icon className="fas fa-th-list" />
+                            <Icon className="fas fa-cube" />
                             Portafolio
                             </MenuItemLink>
                         </MenuItem>
                         <MenuItem>
-                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
-                            <Icon className="fas fa-file-signature" />
+                            <MenuItemLink as={Link} to={'/portafolioweb'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <Icon className="fas fa-briefcase" />
                             Blog
                             </MenuItemLink>
                         </MenuItem>
                         <MenuItem>
-                            <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <MenuItemLink as={Link} to={'/contacto'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                             <Icon className="fas fa-address-card" />
                             Contacto
                             </MenuItemLink>

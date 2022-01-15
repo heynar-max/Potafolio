@@ -6,7 +6,8 @@ const GlobalStyle = createGlobalStyle`
     --color-letra-blanco: #ffffff;
     --blanco-trasparente: #ffffff47;
     --color-naranja: #FDB404;
-    --linea-habilidades: #252525
+    --linea-habilidades: #252525;
+    --color-fondo-tarjeta:#fbfbfb08;
 }
 
 *{

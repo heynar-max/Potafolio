@@ -15,7 +15,7 @@ const Expeyeduitem = ({title, year, subtitle, text }) => {
 const ExpeyeduitemStyled = styled.div`
     padding: 2rem 1rem;
     border-left: 2px solid var(--color-naranja);
-    background: #fbfbfb08;
+    background-color: var(--color-fondo-tarjeta);
     position: relative;
     width: 100%;
 `;

@@ -12,18 +12,18 @@ const Habilidades = () => {
             <div className='habilidad'>
                 <Progresbar
                     title={'HTML5'}
-                    width={'50%'}
-                    text={'50%'}
+                    width={'30%'}
+                    text={'30%'}
                 />
                 <Progresbar
                     title={'STYLE COMPONENTS'}
-                    width={'50%'}
-                    text={'50%'}
+                    width={'30%'}
+                    text={'30%'}
                 />
                 <Progresbar
                     title={'JAVASCRIPT'}
-                    width={'50%'}
-                    text={'50%'}
+                    width={'30%'}
+                    text={'30%'}
                 />
                 <Progresbar
                     title={'PYTHON'}
@@ -32,8 +32,8 @@ const Habilidades = () => {
                 />
                 <Progresbar
                     title={'REACT JS'}
-                    width={'60%'}
-                    text={'60%'}
+                    width={'30%'}
+                    text={'30%'}
                 />
                 <Progresbar
                     title={'PHOTOSHOP'}
@@ -52,8 +52,8 @@ const Habilidades = () => {
                 />
                 <Progresbar
                     title={'ZBRUSH'}
-                    width={'50%'}
-                    text={'50%'}
+                    width={'30%'}
+                    text={'30%'}
                 />
             </div>
             </div>
