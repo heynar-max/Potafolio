@@ -54,7 +54,7 @@ const TitleStyled = styled.div`
         
         span{
             font-weight: 900;
-            color: #fdb20420;
+            color: #b4b3b011;
             font-size: 8rem;
             position: absolute;
             top: -40%;

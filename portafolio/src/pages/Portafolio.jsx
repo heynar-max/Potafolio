@@ -7,7 +7,7 @@ const Portafolio = () => {
     return (
         <>
             <MainLayout>
-                <Title title={'mi'} title1={'portafolio'} span={'trabajos'}/>
+                <Title title={'mis'} title1={'diseños 3D'} span={'trabajos'}/>
                 <PortafolioCom/>
             </MainLayout>
         </>

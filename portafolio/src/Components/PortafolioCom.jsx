@@ -15,38 +15,38 @@ const PortafolioCom = () => {
         {
             id: 1,
             image: Imagen1,
-            title: 'Responsive Resume',
-            text: 'Created with only HTML and CSS.'
+            title: 'Torre de reloj con luz',
+            text: 'Hecho con filamento PLA 3D'
         },
         {
             id: 2,
             image: Imagen2,
-            title: 'Responsive Resume',
-            text: 'Created with only HTML and CSS.'
+            title: 'Cajas de pandora',
+            text: 'Hecho con filamento PLA 3D'
         },
         {
             id: 3,
             image: Imagen3,
-            title: 'Responsive Resume',
-            text: 'Created with only HTML and CSS.'
+            title: 'Caja de pandoras',
+            text: 'Hecho con filamento PLA 3D'
         },
         {
             id: 4,
             image: Imagen4,
-            title: 'Responsive Resume',
-            text: 'Created with only HTML and CSS.'
+            title: 'Coliseo',
+            text: 'Hecho con filamento PLA 3D'
         },
         {
             id: 5,
             image: Imagen5,
-            title: 'Responsive Resume',
-            text: 'Created with only HTML and CSS.'
+            title: 'Templo del Patriarca',
+            text: 'Hecho con filamento PLA 3D'
         },
         {
             id: 6,
             image: Imagen6,
-            title: 'Responsive Resume',
-            text: 'Created with only HTML and CSS.'
+            title: 'Estatua ded Athena',
+            text: 'Hecho con filamento PLA 3D'
         },
     ]
     const [model, setModel] = useState(false);
@@ -189,7 +189,7 @@ const PortafolioStyled = styled.div`
         box-sizing: border-box;
         padding: 20px 0 20px;
         margin: 0 auto;
-        border-radius: 50px;
+        border-radius: 35px;
         
     }
     
